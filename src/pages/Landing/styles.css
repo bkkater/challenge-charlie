@@ -1,0 +1,126 @@
+#page-landing {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(https://images.pexels.com/photos/746386/pexels-photo-746386.jpeg?cs=srgb&dl=pexels-simon-migaj-746386.jpg&fm=jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    border-radius: 8px;
+    width: 20%;
+    height: 50%;
+    min-width: 380px;
+
+    background: #ffdd00b9;
+    background: -webkit-linear-gradient(to bottom, #ffdd00b9, #fcdba0);
+    background: linear-gradient(to bottom, #ffdd00a8, #f5e5c7);
+}
+
+.container header {
+    background-color: #FFF;
+    width: 100%;
+    color: var(--text-in-white);
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 10px;
+}
+
+.container header img {
+    margin-right: 15px;
+}
+
+#page-landing .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+#page-landing .content .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+#page-landing .content .left {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#page-landing .content .right span {
+    margin-bottom: 10px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+#page-landing .content .right span, .today-content .right h4{
+    font-size: 18px;
+}
+
+#page-landing .content .right h4{
+    font-size: 17px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+#page-landing .content .right strong {
+    font-weight: 700;
+}
+
+#page-landing .content.tomorrow {
+    background: #eecb90b7;
+    background: linear-gradient(to bottom, #ffda9979, #e7d1aa);
+}
+
+#page-landing .city-input { 
+    flex: 1;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #FFF;
+    border-radius: 8px;
+}
+
+#page-landing .city-input input {
+    border: none;
+    width: 70%;
+    height: 80%;
+    outline: none;
+    font-size: 17px;
+}
+
+#page-landing .city-input button{
+    height: 103%;
+    width: 17%;
+    border-radius: 0 7px 7px 0;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    outline: none;
+
+    background-color: var(--color-button);
+}
+
+#page-landing h1{
+    font-weight: 800;
+    position: absolute;
+    left: 180px;
+
+    color: #FFF;
+}
